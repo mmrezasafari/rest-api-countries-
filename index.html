@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>REST countries api</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Where in the world?</h1>
+      <button class="darkMod"><i class="far fa-moon"></i>Dark mood</button>
+    </div>
+    <div class="container">
+      <div class="searchHolder">
+        <i class="far fa-search"></i>
+        <input type="text" placeholder="Search for a country" />
+      </div>
+      <div class="dropDownCon">
+        <div class="dropDown">
+          <button class="dropButton">
+            Filter by region<i class="far fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="dropItems dropDownShow">
+          <p class="region">All</p>
+          <p class="region">Africa</p>
+          <p class="region">America</p>
+          <p class="region">Asia</p>
+          <p class="region">Europe</p>
+          <p class="region">Oceania</p>
+        </div>
+      </div>
+    </div>
+    <div class="countries"></div>
+  </body>
+  <script src="./app.js"></script>
+</html>
